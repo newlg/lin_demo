@@ -12,4 +12,5 @@ title: 我的Blog
 	{% for post site.posts %}
 		<li>{{ post.data | data_to_string }} <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
 			{{% endfor %}}
+			
 </ul>
